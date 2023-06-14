@@ -7,10 +7,10 @@ const PORT = process.env.PORT || 3000;
 
 // Konfigurasi koneksi MySQL
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '', 
-  database: 'auth_db'
+  host: '34.101.102.28',
+  user: 'traveuser1',
+  password: 'traveuser1', 
+  database: 'auth_db1'
 });
 
 // Membuka koneksi MySQL
